@@ -5,7 +5,7 @@ const timer = (args)=>{
       setTimeout(()=>{
         process.stdout.write('\x07');
         console.log("beep at ", arg);
-      }, Number(arg) * 1000);
+      }, num * 1000);
     }
   }
 };
